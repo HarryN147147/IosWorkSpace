@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Apollo (0.7.0):
+    - Apollo/Core (= 0.7.0)
+  - Apollo/Core (0.7.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GoogleMobileVision (1.1.0):
+    - GoogleMobileVision/BarcodeDetector (= 1.1.0)
+    - GoogleMobileVision/Detector (= 1.1.0)
+    - GoogleMobileVision/FaceDetector (= 1.1.0)
+    - GoogleMobileVision/MVDataOutput (= 1.1.0)
+  - GoogleMobileVision/BarcodeDetector (1.1.0):
+    - GoogleMobileVision/Detector
+  - GoogleMobileVision/Detector (1.1.0):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.3)
+  - GoogleMobileVision/FaceDetector (1.1.0):
+    - GoogleMobileVision/Detector
+  - GoogleMobileVision/MVDataOutput (1.1.0):
+    - GoogleMobileVision/Detector
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - Socket.IO-Client-Swift (13.1.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.4)
+  - Stripe (11.5.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Apollo
+  - GoogleMaps
+  - GoogleMobileVision
+  - Socket.IO-Client-Swift
+  - Stripe
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Apollo: d6649ac06168660e70c6226c4eadfc0770791ba5
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GoogleMobileVision: d344d69c8987ee239c8a47257e2039084682d181
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  Socket.IO-Client-Swift: f22222913f29801e30ae0df712db663ec096edc2
+  Starscream: f5da93fe6984c77b694366bf7299b7dc63a76f26
+  Stripe: 10761682d20dc491c52287393c800db056c9748d
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 37bba2d472c0178b4e7e460a82b4ba211d45fe8f
+
+COCOAPODS: 1.3.1
